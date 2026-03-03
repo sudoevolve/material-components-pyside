@@ -1,0 +1,27 @@
+module md3.App
+
+Main 1.0 ../../App/Main.qml
+AppRoot 1.0 ../../App/AppRoot.qml
+
+AboutPage 1.0 ../../App/pages/AboutPage.qml
+ColorPage 1.0 ../../App/pages/ColorPage.qml
+ComponentsPage 1.0 ../../App/pages/ComponentsPage.qml
+HomePage 1.0 ../../App/pages/HomePage.qml
+IconPage 1.0 ../../App/pages/IconPage.qml
+NavigationPage 1.0 ../../App/pages/NavigationPage.qml
+ProPage 1.0 ../../App/pages/ProPage.qml
+SettingsPage 1.0 ../../App/pages/SettingsPage.qml
+TypographyPage 1.0 ../../App/pages/TypographyPage.qml
+WidgetsPage 1.0 ../../App/pages/WidgetsPage.qml
+
+AnalogClockWidget 1.0 ../../App/widgets/AnalogClockWidget.qml
+BatteryWidget 1.0 ../../App/widgets/BatteryWidget.qml
+ClockWidget 1.0 ../../App/widgets/ClockWidget.qml
+DesktopWidgetWindow 1.0 ../../App/widgets/DesktopWidgetWindow.qml
+DraggableWidgetWrapper 1.0 ../../App/widgets/DraggableWidgetWrapper.qml
+ExternalWidgetViewer 1.0 ../../App/widgets/ExternalWidgetViewer.qml
+GhostClockWidget 1.0 ../../App/widgets/GhostClockWidget.qml
+GoogleSearchBar 1.0 ../../App/widgets/GoogleSearchBar.qml
+SleepyFaceClockWidget 1.0 ../../App/widgets/SleepyFaceClockWidget.qml
+
+singleton DesktopWidgetManager 1.0 ../../App/widgets/DesktopWidgetManager.qml

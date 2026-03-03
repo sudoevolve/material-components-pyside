@@ -1,0 +1,43 @@
+module md3.Core
+singleton Theme 1.0 ../../Core/Styles/Theme.qml
+
+AnimatedWindow 1.0 ../../Core/Styles/animations/AnimatedWindow.qml
+
+BlurCard 1.0 ../../Core/Controls/BlurCard.qml
+Breadcrumb 1.0 ../../Core/Controls/Breadcrumb.qml
+Button 1.0 ../../Core/Controls/Button.qml
+CanvasBarChart 1.0 ../../Core/Controls/CanvasBarChart.qml
+CanvasLineChart 1.0 ../../Core/Controls/CanvasLineChart.qml
+CanvasPieChart 1.0 ../../Core/Controls/CanvasPieChart.qml
+Card 1.0 ../../Core/Controls/Card.qml
+Carousel 1.0 ../../Core/Controls/Carousel.qml
+Checkbox 1.0 ../../Core/Controls/Checkbox.qml
+Chip 1.0 ../../Core/Controls/Chip.qml
+CircularProgress 1.0 ../../Core/Controls/CircularProgress.qml
+ColorPicker 1.0 ../../Core/Controls/ColorPicker.qml
+ComboBox 1.0 ../../Core/Controls/ComboBox.qml
+DataTable 1.0 ../../Core/Controls/DataTable.qml
+DatePicker 1.0 ../../Core/Controls/DatePicker.qml
+Dialog 1.0 ../../Core/Controls/Dialog.qml
+FAB 1.0 ../../Core/Controls/FAB.qml
+FabMenu 1.0 ../../Core/Controls/FabMenu.qml
+IconButton 1.0 ../../Core/Controls/IconButton.qml
+LinearProgress 1.0 ../../Core/Controls/LinearProgress.qml
+LoadingIndicator 1.0 ../../Core/Controls/LoadingIndicator.qml
+Menu 1.0 ../../Core/Controls/Menu.qml
+NavigationBar 1.0 ../../Core/Controls/NavigationBar.qml
+NavigationDrawer 1.0 ../../Core/Controls/NavigationDrawer.qml
+NavigationRail 1.0 ../../Core/Controls/NavigationRail.qml
+RadioButton 1.0 ../../Core/Controls/RadioButton.qml
+Ripple 1.0 ../../Core/Controls/Ripple.qml
+ScrollBar 1.0 ../../Core/Controls/ScrollBar.qml
+SegmentedButton 1.0 ../../Core/Controls/SegmentedButton.qml
+SideSheet 1.0 ../../Core/Controls/SideSheet.qml
+Slider 1.0 ../../Core/Controls/Slider.qml
+Snackbar 1.0 ../../Core/Controls/Snackbar.qml
+Switch 1.0 ../../Core/Controls/Switch.qml
+Tabs 1.0 ../../Core/Controls/Tabs.qml
+TextField 1.0 ../../Core/Controls/TextField.qml
+TimePicker 1.0 ../../Core/Controls/TimePicker.qml
+ToolTip 1.0 ../../Core/Controls/ToolTip.qml
+TopAppBar 1.0 ../../Core/Controls/TopAppBar.qml
