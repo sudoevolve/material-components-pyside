@@ -1,6 +1,6 @@
 ## Release v0.4.0 (2026-03-4)
 
-- ### Features & Improvements
+### Features & Improvements
 
 - 新的 Slider 组件
 - 新的 Blurcard 组件
