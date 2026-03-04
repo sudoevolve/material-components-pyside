@@ -44,7 +44,10 @@ def run(qml_root: Optional[Path] = None) -> int:
     style_manager = StyleManager()
 
     root_ctx = engine.rootContext()
-    root_ctx.setContextProperty("ProjectSourceDir", str(repo_root / "md3qmlcpp" / "material-components-qml-main"))
+    root_ctx.setContextProperty(
+        "ProjectSourceDir",
+        str(repo_root / "md3qmlcpp" / "material-components-qml-main"),
+    )
     root_ctx.setContextProperty("StyleManager", style_manager)
 
     main_qml = qml_root / "App" / "Main.qml"
