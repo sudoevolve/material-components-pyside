@@ -65,7 +65,7 @@ ColumnLayout {
                     Text { text: "Hue"; color: Theme.color.onSurfaceColor; font.pixelSize: Theme.typography.bodyMedium.size }
                     Item { Layout.fillWidth: true }
                     Text { 
-                        text: Math.round(hueSlider.value)
+                        text: Math.round(StyleManager.hctHue)
                         color: Theme.color.onSurfaceVariantColor
                         font.pixelSize: Theme.typography.bodyMedium.size 
                     }
@@ -105,7 +105,7 @@ ColumnLayout {
                     Text { text: "Chroma"; color: Theme.color.onSurfaceColor; font.pixelSize: Theme.typography.bodyMedium.size }
                     Item { Layout.fillWidth: true }
                     Text { 
-                        text: Math.round(chromaSlider.value)
+                        text: Math.round(StyleManager.hctChroma)
                         color: Theme.color.onSurfaceVariantColor
                         font.pixelSize: Theme.typography.bodyMedium.size 
                     }
@@ -139,7 +139,7 @@ ColumnLayout {
                     Text { text: "Tone"; color: Theme.color.onSurfaceColor; font.pixelSize: Theme.typography.bodyMedium.size }
                     Item { Layout.fillWidth: true }
                     Text { 
-                        text: Math.round(toneSlider.value)
+                        text: Math.round(StyleManager.hctTone)
                         color: Theme.color.onSurfaceVariantColor
                         font.pixelSize: Theme.typography.bodyMedium.size 
                     }
@@ -166,4 +166,3 @@ ColumnLayout {
         }
     }
 }
-

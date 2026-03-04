@@ -1,4 +1,4 @@
-﻿import QtQuick
+import QtQuick
 import QtQuick.Window
 import md3.Core
 Window {
@@ -51,7 +51,8 @@ Window {
     }
 
     Connections {
-        target: HotReloader
+        target: (typeof HotReloader !== "undefined") ? HotReloader : null
+        ignoreUnknownSignals: true
         function onFileChanged(path) {
             console.log("DesktopWidgetWindow: HotReloader signal received for:", path)
             console.log("DesktopWidgetWindow: Current widgetSource:", desktopWindow.widgetSource)
@@ -348,4 +349,3 @@ Window {
         z: 998 // Below the menu overlay
     }
 }
-

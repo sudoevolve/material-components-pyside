@@ -152,7 +152,7 @@ Item {
             if (control.indeterminate) {
                  endX = w;
             } else {
-                 endX = w * Math.max(0, Math.min(1, progress));
+                 endX = w * Math.max(0, Math.min(1, wavyCanvas.progress));
             }
 
             if (control.indeterminate) {
@@ -160,9 +160,9 @@ Item {
                 ctx.beginPath();
                 ctx.strokeStyle = activeColor;
                 
-                var progress = (phase % (Math.PI * 2)) / (Math.PI * 2); // 0 to 1
+                var indeterminateProgress = (phase % (Math.PI * 2)) / (Math.PI * 2); // 0 to 1
                 var barWidth = w * 0.5;
-                var startX = (w + barWidth) * progress - barWidth;
+                var startX = (w + barWidth) * indeterminateProgress - barWidth;
                 var actualEndX = startX + barWidth;
                 
                 for (var x = 0; x <= w; x+=2) {
@@ -189,4 +189,3 @@ Item {
         onHeightChanged: requestPaint()
     }
 }
-

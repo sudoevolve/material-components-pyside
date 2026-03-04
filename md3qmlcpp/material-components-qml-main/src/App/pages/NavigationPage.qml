@@ -411,7 +411,7 @@ Item {
             clip: true
             model: 20
             delegate: Item {
-                width: parent.width
+                width: ListView.view ? ListView.view.width : 0
                 height: 56
                 
                 Text {
@@ -431,5 +431,4 @@ Item {
         }
     }
 }
-
 
