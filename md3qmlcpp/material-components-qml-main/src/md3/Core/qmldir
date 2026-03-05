@@ -22,6 +22,7 @@ Dialog 1.0 ../../Core/Controls/Dialog.qml
 FAB 1.0 ../../Core/Controls/FAB.qml
 FabMenu 1.0 ../../Core/Controls/FabMenu.qml
 IconButton 1.0 ../../Core/Controls/IconButton.qml
+IndexBackground 1.0 ../../Core/Controls/IndexBackground.qml
 LinearProgress 1.0 ../../Core/Controls/LinearProgress.qml
 LoadingIndicator 1.0 ../../Core/Controls/LoadingIndicator.qml
 Menu 1.0 ../../Core/Controls/Menu.qml
